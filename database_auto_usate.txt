@@ -1,0 +1,16 @@
+Nome Tabella:
+Database Auto Usate
+
+Colonne:
+Id - numero - INT - PRIM KEY - AUTO INCREMENT - UNIQUE
+Marca - stringa - VARCHAR(50) - NOTNULL
+Modello - stringa - VARCHAR(50) - NOTNULL
+Prezzo - numero - FLOAT(8,2) - NOTNULL
+Anno Immatricolazione - data - YEAR - NOTNULL
+Km - numero - INT - NOTNULL
+Descrizione - stringa - TEXT
+Immagine - stringa - VARCHAR(50) - DEFAULT
+Cap - numero - INT 
+Città - stringa - VARCHAR(40)
+Benzina - booleano - TINYINT
+Diesel - booleano - TINYINT
